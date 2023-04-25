@@ -25,7 +25,7 @@ header, footer, .title {
 }
 
 .container > div {
-    flex: 1;
+    flex: 1 0 200px;
 }
 
 /* Header Section */
