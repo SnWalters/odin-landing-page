@@ -24,9 +24,11 @@ header, footer, .title {
     padding: 10px 50px;
 }
 
-.container div {
+.container > div {
     flex: 1;
 }
+
+/* Header Section */
 
 header {
     display: flex;
@@ -55,4 +57,48 @@ header {
 .header-links a:hover {
     color: #c0c0c0;
     text-decoration: underline;
+}
+
+/* Title Section */
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.title > div {
+    width: 40%;
+}
+
+h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.title p {
+    color: #c0c0c0;
+    font-size: 18px;
+}
+
+.sign-up {
+    color: #e5e7eb;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 40px;
+    background-color: #3882f6;
+    border-radius: 15px;
+}
+
+.sign-up:hover {
+    background-color: #e5e7eb;
+    color: #3882f6;
+}
+
+.image-placeholder {
+    background-color: grey;
+    color: #c0c0c0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
