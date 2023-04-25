@@ -1,3 +1,7 @@
+* {
+    font-family: "URW Gothic L", "Apple Gothic", "Century Gothic";
+}
+
 body {
     background-color: #000;
     margin: 0;
@@ -9,11 +13,45 @@ header, footer, .title {
 }
 
 .container {
+    width: 80%;
     height: 100vh;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
 }
 
 .container * {
+    padding: 10px 30px;
+}
+
+.container div {
     flex: 1;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    color: #f9faf8;
+    font-size: 24px;
+    margin: 0;
+    padding: inherit;
+}
+
+.header-links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-links a {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.header-links a:hover {
+    color: #c0c0c0;
+    text-decoration: underline;
 }
