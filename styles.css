@@ -20,8 +20,8 @@ header, footer, .title {
     flex-direction: column;
 }
 
-.container * {
-    padding: 10px 30px;
+.container div, .container header, .container footer {
+    padding: 10px 50px;
 }
 
 .container div {
@@ -49,6 +49,7 @@ header {
     color: #e5e7eb;
     font-size: 18px;
     text-decoration: none;
+    padding: 0 15px;
 }
 
 .header-links a:hover {
