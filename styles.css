@@ -20,7 +20,7 @@ header, footer, .title {
     flex-direction: column;
 }
 
-.container div, .container header, .container footer {
+.container > * {
     padding: 10px 50px;
 }
 
@@ -63,7 +63,7 @@ header {
 
 .title {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .title > div {
@@ -102,4 +102,39 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Information Section */
+
+.information {
+    background-color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information > p {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.information > div {
+    display: flex;
+    justify-content: center;
+}
+
+.info-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    padding: 10px 40px;
+}
+
+.info-image {
+    height: 150px;
+    width: 150px;
+    border: 3px double #3882f6;
+    border-radius: 20px;
 }
