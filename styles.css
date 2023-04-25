@@ -198,3 +198,11 @@ p > span {
     font-weight: bold;
     font-size: 20px;
 }
+
+/* Footer Section */
+
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+}
