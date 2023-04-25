@@ -1,0 +1,19 @@
+body {
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer, .title {
+    background-color: #1f2937;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container * {
+    flex: 1;
+}
