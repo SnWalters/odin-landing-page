@@ -20,7 +20,7 @@ header, footer, .title {
     flex-direction: column;
 }
 
-.container > * {
+.container > header {
     padding: 10px 50px;
 }
 
@@ -64,6 +64,7 @@ header {
 .title {
     display: flex;
     justify-content: space-evenly;
+    padding: 40px 50px;
 }
 
 .title > div {
